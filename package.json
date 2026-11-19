@@ -1,0 +1,19 @@
+{
+  "name": "crud-paises-mysql",
+  "version": "1.0.0",
+  "description": "API REST CRUD de países con Node.js, Express y MySQL",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-session": "^1.19.0",
+    "mysql2": "^3.14.2"
+  }
+}
